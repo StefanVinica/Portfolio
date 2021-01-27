@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Stefan Nikolovski</title>
+  <link href="/css/style.css" rel="stylesheet" type="text/css" />
+  <link href="/css/home.css" rel="stylesheet" type="text/css" />
+  <link href="/css/about.css" rel="stylesheet" type="text/css" />
+  <link href="/css/skills.css" rel="stylesheet" type="text/css" />
+  <link href="/css/portfolio.css" rel="stylesheet" type="text/css" />
+  <link href="/css/contact.css" rel="stylesheet" type="text/css" />
+
+  <!-- font-awesome -->
+  <script src="https://kit.fontawesome.com/53efbbe0a9.js" crossorigin="anonymous"></script>
+
+  <!-- google fonts -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+  </style>
+</head>
+
+
+<body>
+  <script src="script.js"></script>
+
+
+  <!-- START HERE :D -->
+
+
+  <main>
+
+    <!-- HOME SECTION + NAV -->
+    <section class='header-content' id='home'>
+      <section class='nav-name'>
+        <nav class='nav'>
+          <div class='name'>
+            <h1>Stefan Nikolovski</h1>
+          </div>
+          <div class='nav-i-text'>
+
+            <!-- Icons Only On Mobile  -->
+            <p> <a href="#home" class='mobile-icon' aria-label='home-icon'> <i class="fas fa-home"></i> </a> </p>
+            <p> <a href="#about" class='mobile-icon' aria-label='about-icon'> <i class="fas fa-user-circle"></i> </a>
+            </p>
+            <p> <a href="#skills" class='mobile-icon' aria-label='skills-icon'> <i class="fas fa-wrench"></i> </a> </p>
+            <p> <a href="#portfolio" class='mobile-icon' aria-label='projects-icon'> <i class="fas fa-briefcase"></i>
+              </a> </p>
+            <p> <a href="#contact" class='mobile-icon' aria-label='contact-icon'> <i class="fas fa-paper-plane"></i>
+              </a> </p>
+
+
+            <!-- Text and Icons Full Screen -->
+            <p class='nav-text'> <i class="fas fa-home"></i><a href="#home"> Home</a></p>
+            <p class='nav-text'> <i class="fas fa-user-circle"></i> <a href="#about"> About</a></p>
+            <p class='nav-text'><i class="fas fa-wrench"> </i><a href="#skills">Skills</a></p>
+            <p class='nav-text'><i class="fas fa-briefcase"></i><a href="#portfolio">Portfolio</a></p>
+            <p class='nav-text'> <i class="fas fa-paper-plane"></i> <a href="#contact">Contact</a></p>
+          </div>
+        </nav>
+
+      </section>
+
+
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id='about'>
+      <div class='about-section'>
+
+        <header>
+          <h4 class='about-name'> <i class="fas fa-user-circle"></i> About </h4>
+        </header>
+        <section class='parent-to-blurbs'>
+          <div>
+            <img src='images/me.jpg' class='profile-pic' alt='profile-pic'>
+          </div>
+
+          <div class='left-blurb'>
+            <p>Mission-driven full stack developer with a passion for thoughtful
+              UI design, collaboration, and learning.</p>
+
+            <p>I have a diverce set of skills ranging from Front-end with React to Back-End
+              with Node.js, product development and marketing
+            </p>
+
+            <p>With a background in marketing, where I developed great project management skills. </p>
+
+          </div>
+        </section>
+
+        <div class='arrow-to-skills'>
+          <a href='#skills' class='skills-arrow' aria-label='arrow-down'><i class="fas fa-angle-double-down"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+    <!-- Skills Section -->
+    <section id='skills' class='skills'>
+
+      <header>
+        <h4 class='about-name'> <i class="fas fa-wrench"></i> Skills </h4>
+      </header>
+
+      <div class='skills-section'>
+        <div>
+          <img src='images/front-end-icons.png' class='skills-icons' alt='front-end-icons'>
+        </div>
+        <div>
+          <img src='images/back-end-icons.png' class='skills-icons' alt='back-end-icons'>
+        </div>
+        <div>
+          <img src='images/dev-tools-icons.png' class='skills-icons' alt='dev-tools-icons'>
+        </div>
+      </div>
+
+      <div class='arrow-to-portfolio'>
+        <a href='#portfolio' class='port-arrow' aria-label='arrow-down'><i class="fas fa-angle-double-down"></i>
+        </a>
+      </div>
+
+    </section>
+
+
+    <!-- PORTFOLIO SECTION -->
+    <section id='portfolio'>
+      <div class='portfolio-section'>
+
+        <header>
+          <h4 class='about-name'><i class="fas fa-briefcase"></i> Projects </h4>
+        </header>
+
+        <section class='projects-div'>
+          <!-- Project 1 -->
+          <div class='project'>
+            <div>
+              <img src='images/POS.png' class='portfolio-img' alt='OrderEz'>
+            </div>
+            <div>
+              <h2 class='port-h2'>Order EZ</h2>
+              <p class='link-box'>
+                <a href='https://github.com/First-Capstone-Project/OrderEz-Client' class='demo-links'><i class="fab fa-github"></i>
+                  Client</a>
+                <a href='https://github.com/First-Capstone-Project/OrderEz-API' class='demo-links'><i class="fab fa-github"></i>
+                   Server</a>
+              </p>
+
+              <p class='description'>
+                Online POS, pretty straightforward you create your menu for your restaurant
+                and this app helps you take orders without having to write it down.
+                My first FullStack application.
+              </p>
+
+              <div class='port-skills'>
+                <p>Node</p>
+                <p>React</p>
+                <p>Javascript</p>
+                <p>HTML</p>
+                <p>CSS</p>
+              </div>
+              <div class='port-skills'>
+                <p>Express</p>
+                <p>Mocha</p>
+                <p>Chai</p>
+                <p>Heroku</p>
+                <p>Vercel</p>
+              </div>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class='project'>
+            <div>
+              <img src='images/Reservation.png' class='portfolio-img' alt='Reservation'>
+            </div>
+            <div>
+              <h2 class='port-h2'>Reservation</h2>
+              <p class='link-box'>
+                <a href='https://github.com/StefanVinica/Reservation-Client' class='demo-links'><i
+                    class="fab fa-github"></i> Client</a>
+                <a href='https://github.com/StefanVinica/Reservations-API' class='demo-links'><i
+                    class="fab fa-github"></i> Server</a>
+                <a href='https://reservation-client-p3q3ena9h.vercel.app/register' class='demo-links'><i
+                    class="fas fa-desktop"></i> Demo</a>
+              </p>
+              <p class='description'>
+                Reservation is an app that allows you as a restaurant owner to manage and keep track of your
+                reservations for each
+                table individually, while not having to worry about overbooking.
+                As a regular user, it's pretty easy to use, just create an account and make a reservation
+                in any of the restaurants in our database.
+              </p>
+
+              <div class='port-skills'>
+                <p>Node</p>
+                <p>React</p>
+                <p>Javascript</p>
+                <p>HTML</p>
+                <p>CSS</p>
+              </div>
+              <div class='port-skills'>
+                <p>Express</p>
+                <p>Mocha</p>
+                <p>Chai</p>
+                <p>Heroku</p>
+                <p>Vercel</p>
+              </div>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class='project'>
+            <div>
+              <img src='images/SpacedRep.png' class='portfolio-img' alt='spaced-repetition'>
+            </div>
+            <div>
+              <h2 class='port-h2'>Spaced Repetition</h2>
+              <p class='link-box'>
+                <a href='https://github.com/StefanVinica/SpacedRepetition' class='demo-links'>
+                  <i class="fab fa-github"></i> Client</a>
+                <a href='https://github.com/StefanVinica/SpacedRepetition-Server' class='demo-links'>
+                  <i class="fab fa-github"></i> Server</a>
+                <a href='https://spaced-repetition-i0x5vi2z9.vercel.app/login' class='demo-links'> <i
+                    class="fas fa-desktop"></i>
+                  Demo</a>
+              </p>
+              <p class='description'>
+                There isn't much sense in practicing the things that you already have memorized!
+                This app uses a spaced repetition algorithm to present incorrect guesses more often. When words are
+                guessed correctly. they are presented less and less often, until the user guesses correctly 100% of
+                the time.
+              </p>
+
+              <div class='port-skills'>
+                <p>Node</p>
+                <p>React</p>
+                <p>Javascript</p>
+                <p>HTML</p>
+                <p>CSS</p>
+              </div>
+              <div class='port-skills'>
+                <p>Express</p>
+                <p>Mocha</p>
+                <p>Chai</p>
+                <p>Heroku</p>
+                <p>Vercel</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class='arrow-to-contact'>
+          <a href='#contact' class='contact-arrow' aria-label='arrow-down'><i class="fas fa-angle-double-down"></i></a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id='contact'>
+      <div class='contact-section'>
+
+        <section class='contact-div'>
+          <p class='connect-text'>Contact <i class="fas fa-paper-plane"></i></p>
+          <a href="https://github.com/StefanVinica" class='contact-icon' aria-label='github-link' target="_blank"><i
+              class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/nikolovskistefan/" class='contact-icon' aria-label='linkedin-link'
+            target="_blank"> <i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:stefannikolovski996@gmail.com" class='contact-icon' aria-label='email-link' target="_blank">
+            <i class="far fa-envelope"></i> </a>
+
+          <div class='arrow-to-home'>
+            <a href='#home' class='home-arrow' aria-label='arrow-home'><i class="fas fa-angle-double-up"></i></a>
+            <p class='back-home'>Home </p>
+          </div>
+
+        </section>
+
+
+
+      </div>
+    </section>
+
+  </main>
+</body>
+
+</html>
