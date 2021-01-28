@@ -46,6 +46,12 @@ visibility: hidden;
     justify-content: center;
   }
 
+  .profile-pic{
+    width: 100%;
+    height: auto;
+    border-radius: .65em;
+  }
+
 /* Left Paragraph */
   .left-blurb {
     margin-left: 2em;
