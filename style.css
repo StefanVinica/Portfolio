@@ -1,5 +1,9 @@
- body{
-  } 
+img{
+  max-width: 340px;
+}
+h2{
+  text-align:center;
+}
 
   footer {
     text-align: center;
@@ -9,3 +13,5 @@
   .hide {
     visibility: hidden;
   }
+
+  

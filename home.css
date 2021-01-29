@@ -72,9 +72,6 @@ nav i:hover{
 /* ------------------------------------------------------------------ */
 @media screen and (min-width:600px){
 
-/* Header Background Image */
-.header-content {
-}
 
 
 .name {
@@ -86,7 +83,6 @@ nav i:hover{
   display:none;
 }
 .nav {
-  flex-direction: row;
   justify-content: space-between;
 }
 
