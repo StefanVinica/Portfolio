@@ -22,16 +22,14 @@
   font-size: .89em;
   }
 
-.profile-pic {
-  width: 50%;
-  height:50%;
-  border-radius: .65em;
-}
-
 .arrow-to-skills{
 visibility: hidden;
 }
 
+.profileimg{
+  width: 450px;
+  height: auto;
+}
 /* Desktop */
 @media screen and (min-width:600px){
   .about-name {
@@ -46,10 +44,9 @@ visibility: hidden;
     justify-content: center;
   }
 
-  .profile-pic{
-    width: 100%;
+  .profileimg{
+    width: 450px;
     height: auto;
-    border-radius: .65em;
   }
 
 /* Left Paragraph */
@@ -61,13 +58,6 @@ visibility: hidden;
     font-family: 'Lato';
     font-size: 1.1em;
   }
-
-  .profile-pic {
-    width: 18em;
-    height: 22em;
-    border-radius: .65em;
-  }
-
   .arrow-to-skills{
     visibility: visible;
     text-align:center;
